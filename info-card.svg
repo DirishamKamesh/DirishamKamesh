@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 370" width="100%" height="370">
+  <defs>
+    <style>
+
+        @keyframes lineReveal {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5px; rx: 10px; }
+        .topbar { fill: #161b22; rx: 10px; }
+        .topbar-divider { stroke: #30363d; stroke-width: 1px; }
+        .dot-red { fill: #ff5f56; }
+        .dot-yellow { fill: #ffbd2e; }
+        .dot-green { fill: #27c93f; }
+        .title { fill: #8b949e; font-family: 'Fira Code', Consolas, 'Courier New', monospace; font-size: 13px; font-weight: 600; }
+        
+        .info-group {
+            opacity: 0;
+            animation: lineReveal 0.4s ease-out forwards;
+        }
+        
+        .cmd { fill: #7ee787; font-family: 'Fira Code', Consolas, 'Courier New', monospace; font-size: 13px; font-weight: 700; }
+        .val { fill: #c9d1d9; font-family: 'Fira Code', Consolas, 'Courier New', monospace; font-size: 12.5px; font-weight: 400; }
+        .accent { fill: #58a6ff; font-weight: 600; }
+        .highlight { fill: #d2a8ff; }
+        .cursor { fill: #7ee787; animation: blink 1s infinite; }
+    
+    </style>
+  </defs>
+
+  <!-- Window Container -->
+  <rect class="bg" x="1" y="1" width="438" height="368" />
+  
+  <!-- Window Header -->
+  <rect class="topbar" x="1" y="1" width="438" height="36" />
+  <line class="topbar-divider" x1="1" y1="36" x2="439" y2="36" />
+  
+  <!-- Window Controls -->
+  <circle class="dot-red" cx="18" cy="18" r="6" />
+  <circle class="dot-yellow" cx="38" cy="18" r="6" />
+  <circle class="dot-green" cx="58" cy="18" r="6" />
+  <text class="title" x="220.0" y="22" text-anchor="middle">dirisham@developer-terminal ~ neofetch</text>
+
+  <!-- Content lines -->
+  <g class="info-group" style="animation-delay: 100ms;">
+    <text x="20" y="65">
+      <tspan class="cmd">$ whoami</tspan>
+      <tspan class="val" x="135"><tspan class="accent">Dirisham Kamesh</tspan></tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 280ms;">
+    <text x="20" y="96">
+      <tspan class="cmd">$ role</tspan>
+      <tspan class="val" x="135"><tspan class="highlight">CSE Student · Developer</tspan></tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 460ms;">
+    <text x="20" y="127">
+      <tspan class="cmd">$ languages</tspan>
+      <tspan class="val" x="135">C [Strong] · Java · JavaScript</tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 640ms;">
+    <text x="20" y="158">
+      <tspan class="cmd">$ frontend</tspan>
+      <tspan class="val" x="135">HTML5 · CSS3 · React.js · UI/UX · Canvas</tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 820ms;">
+    <text x="20" y="189">
+      <tspan class="cmd">$ backend</tspan>
+      <tspan class="val" x="135">Node.js · Express.js · REST APIs</tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 1000ms;">
+    <text x="20" y="220">
+      <tspan class="cmd">$ database</tspan>
+      <tspan class="val" x="135">PostgreSQL · Supabase · Firebase</tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 1180ms;">
+    <text x="20" y="251">
+      <tspan class="cmd">$ tools</tspan>
+      <tspan class="val" x="135">Git · GitHub · Netlify · Render</tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 1360ms;">
+    <text x="20" y="282">
+      <tspan class="cmd">$ learning</tspan>
+      <tspan class="val" x="135">DSA · Java · Advanced CSS · MERN</tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 1540ms;">
+    <text x="20" y="313">
+      <tspan class="cmd">$ target</tspan>
+      <tspan class="val" x="135">Full-Stack Internship</tspan>
+    </text>
+  </g>
+  <g class="info-group" style="animation-delay: 1720ms;">
+    <text x="20" y="344">
+      <tspan class="cmd">$</tspan>
+      <tspan class="cursor" x="35">▌</tspan>
+    </text>
+  </g>
+</svg>

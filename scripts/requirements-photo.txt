@@ -1,0 +1,3 @@
+# Photo processing dependencies (one-time use, NOT needed by daily Action)
+Pillow>=10.0.0
+rembg>=2.0.50
