@@ -442,7 +442,8 @@
 <rect class="cell" x="762" y="120" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 1.026s"/>
 <rect class="cell" x="776" y="36" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 0.936s"/>
 <rect class="cell" x="776" y="50" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 0.954s"/>
-<rect class="cell" x="776" y="64" width="11" height="11" rx="2" fill="#0e4429" style="animation-delay: 0.972s"/>
+<rect class="cell" x="776" y="64" width="11" height="11" rx="2" fill="#006d32" style="animation-delay: 0.972s"/>
+<rect class="cell" x="776" y="78" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 0.990s"/>
 <rect class="shimmer-bar" x="48" y="36" width="50" height="95" rx="4" fill="url(#shimmerGrad)"/>
 <text class="label" x="647" y="158">Less</text>
 <rect class="legend-cell" x="677" y="149" width="11" height="11" rx="2" fill="#161b22"/>
@@ -451,5 +452,5 @@
 <rect class="legend-cell" x="719" y="149" width="11" height="11" rx="2" fill="#26a641"/>
 <rect class="legend-cell" x="733" y="149" width="11" height="11" rx="2" fill="#39d353"/>
 <text class="label" x="749" y="158">More</text>
-<text class="stat-text" x="48" y="173"><tspan class="stat-num">71</tspan> contributions in the last year  ·  Current streak: <tspan class="stat-num">1</tspan> day  ·  Longest streak: <tspan class="stat-num">5</tspan> days</text>
+<text class="stat-text" x="48" y="173"><tspan class="stat-num">74</tspan> contributions in the last year  ·  Current streak: <tspan class="stat-num">0</tspan> days  ·  Longest streak: <tspan class="stat-num">5</tspan> days</text>
 </svg>
