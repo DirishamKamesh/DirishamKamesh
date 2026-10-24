@@ -446,6 +446,7 @@
 <rect class="cell" x="776" y="78" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 0.990s"/>
 <rect class="cell" x="776" y="92" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 1.008s"/>
 <rect class="cell" x="776" y="106" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 1.026s"/>
+<rect class="cell" x="776" y="120" width="11" height="11" rx="2" fill="#161b22" style="animation-delay: 1.044s"/>
 <rect class="shimmer-bar" x="48" y="36" width="50" height="95" rx="4" fill="url(#shimmerGrad)"/>
 <text class="label" x="647" y="158">Less</text>
 <rect class="legend-cell" x="677" y="149" width="11" height="11" rx="2" fill="#161b22"/>
